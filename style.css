@@ -1,0 +1,111 @@
+#tribute-info-timeline {
+	box-sizing: border-box;
+	height: 100%;
+	width: 85%;
+	margin: 0 auto;
+	background-color:#666666;
+	border: 3px solid;
+	border-radius: 35px;
+	box-shadow: 10px 5px #cccccc;
+}
+#tribute-info-timeline-ruler {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#tribute-info-timeline-ruler::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	background-color: white;
+	top: 0;
+	border-radius: 5px;
+	bottom: 0;
+	left: 39vw;
+	margin-left: -3px;
+}
+.container {
+	padding: 0px 8px;
+	position: relative;
+	background-color: white;
+	width: 30%;
+	z-index: 3;
+}
+.container::after {
+  	content: '';
+  	position: absolute;
+ 	 width: 13px;
+  	height: 13px;
+  	right: -6vw;
+  	background-color: white;
+  	border: 4px solid #999999;
+	top: 0px;
+  	border-radius: 50%;
+  	z-index: 0;
+}
+.first, .third, .fifth, .seventh {
+	left: 10%;
+}
+.second, .fourth, .sixth, .eighth{
+	left: 60%;
+}
+.first::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -10%;
+  width: 0;
+  z-index: 2;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+.first::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -10%;
+  width: 0;
+  z-index: 2;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+.third::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -10%;
+  width: 0;
+  z-index: 2;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+.fifth::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -10%;
+  width: 0;
+  z-index: 2;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+.seventh::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -10%;
+  width: 0;
+  z-index: 2;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
